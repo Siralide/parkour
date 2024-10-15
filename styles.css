@@ -1,0 +1,21 @@
+/* Estilos básicos para el convertidor */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    overflow: hidden;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    white-space: pre-wrap; /* Para mantener los saltos de línea */
+    font-family: monospace;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-height: 300px;
+    overflow-y: auto;
+}
